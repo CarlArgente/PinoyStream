@@ -1,0 +1,36 @@
+.channel { 
+    cursor: pointer;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.channel:hover { 
+    background-color: #25252c;
+    
+}
+.channel_details { 
+    display: flex;
+    align-items: center;
+    
+}
+.channel>div>img { 
+    object-fit: contain;
+    margin-right: 5px;
+    width: 40px;
+    border-radius: 50%;
+}
+.channel_info { 
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align: left;
+    color: white;
+   
+}
+.channel_info > small { 
+    color:#7A7A7A;
+}

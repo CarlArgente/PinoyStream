@@ -1,0 +1,87 @@
+.header { 
+    height: 3.5rem;
+    border-bottom: 0px solid  6B6B6B;
+    display: flex;
+    align-items: center;
+    background-color:#3A3A3A;
+    z-index: 100;
+    position: sticky;
+    top: 0;
+}
+.header_left { 
+    display: flex;
+    align-items: center;
+    flex: -01;
+    background-color: #313131;
+   
+}
+.header_leftLogo { 
+    object-fit: contain;
+    height: 2rem;
+    margin-left: 10px;
+}
+.header_left > h3 { 
+    margin: 15px;
+    color: white;
+}
+.header_verticalLine { 
+    border-left: 1px solid white;
+    height: 2rem;
+    margin-left: 91px;
+    margin-right: 60px;
+}
+.header_verticalLine1 { 
+    border-left: 1px solid #4a4a4c;
+}
+
+.header_center { 
+    background-color: #7A7A7A;
+    height: 2.5rem;
+    display: flex;
+    width: 25%;
+    border: 8px;
+    overflow: hidden;
+    align-items: center;
+    border-radius: 10px;
+    margin-left: 50px;
+}
+.header_center > input { 
+    outline: none;
+    background-color: transparent;
+    color: white;
+    flex:1;
+    margin-left: 5px;
+    font-size: large;
+    border: none;
+    
+}
+.header_center > input::placeholder { 
+    color: rgb(216, 216, 216);
+}
+.header_centerLogoContainer { 
+    background-color: 4a4a4c;
+    width: 50px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header_right { 
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}
+.header_rightContainer { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin: 20px;
+}
+.header_rightContainer > Button { 
+    margin: 20px;
+}
+.header_rightAvatar { 
+    margin: 1px;
+    margin-left: 20px;
+}
